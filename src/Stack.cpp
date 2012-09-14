@@ -25,7 +25,6 @@ void Stack::push(int value) {
     memcpy(newStack, theStack, top);
     delete[] theStack;
     theStack = newStack;
-    delete[] newStack;
   }
 
   theStack[top] = value;

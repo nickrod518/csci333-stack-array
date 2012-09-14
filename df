@@ -1,0 +1,83 @@
+commit 211f0da61ae5757d17feeb40061bd62c230e125e
+Author: Nick Rodriguez <nickrod518@gmail.com>
+Date:   Thu Sep 13 22:54:52 2012 -0400
+
+    Added capacity variable and attempted to add auto-resize functionality
+
+commit 71d55a1c82707fca68400d7a0e13c6b9d3e98d58
+Author: Nick Rodriguez <nickrod518@gmail.com>
+Date:   Thu Sep 13 18:41:55 2012 -0400
+
+    added test for auto-resize
+
+commit 641f90aa90215ab3b772da52091e0daa54338ccf
+Author: Semmy Purewal <semmypurewal@gmail.com>
+Date:   Thu Sep 13 11:08:11 2012 -0400
+
+    fixes root Makefile
+
+commit 4e760fe0e04ebf4779b862f7187de86e42a57d96
+Author: Semmy Purewal <semmypurewal@gmail.com>
+Date:   Thu Sep 13 10:39:12 2012 -0400
+
+    fixes test Makefile
+
+commit 188067c7a0a3e7427ad06adc3b139febbb45c582
+Author: Semmy Purewal <semmypurewal@gmail.com>
+Date:   Wed Sep 12 14:45:23 2012 -0400
+
+    fixes problems with google test suite
+
+commit 03f3cf143e97afff15131b9401647eb5ec0abbaa
+Author: Semmy Purewal <semmypurewal@gmail.com>
+Date:   Wed Sep 12 12:38:01 2012 -0400
+
+    fixes pthread/lpthread error
+
+commit e04c40ccd54ab68f38640cae11c184c38288dde4
+Author: Semmy Purewal <semmypurewal@gmail.com>
+Date:   Wed Sep 12 12:23:22 2012 -0400
+
+    adds empty build directory
+
+commit 9974161794a40a8230657a47aee743c598c678a2
+Author: Semmy Purewal <semmypurewal@gmail.com>
+Date:   Wed Sep 12 12:21:50 2012 -0400
+
+    removes build directory from gitignore
+
+commit 95c7159d8735099cad7581e2bb2c828c598b6b05
+Author: Semmy Purewal <semmypurewal@gmail.com>
+Date:   Wed Sep 12 12:11:52 2012 -0400
+
+    removes stack binary file
+
+commit f6430ceb90937ffbdf51f781c7ac67c33d56cae0
+Author: Semmy Purewal <semmypurewal@gmail.com>
+Date:   Wed Sep 12 12:10:00 2012 -0400
+
+    adds test directory and gtest test subdirectories
+
+commit 084e1affd8226408cd7bb5783925cddadbf6b26c
+Author: Semmy Purewal <semmypurewal@gmail.com>
+Date:   Wed Sep 12 12:04:27 2012 -0400
+
+    automates build of stack test via make
+
+commit 54022d47486e585513ea511636900fb19bbfb281
+Author: Semmy Purewal <semmypurewal@gmail.com>
+Date:   Wed Sep 12 10:42:26 2012 -0400
+
+    adds google testing framework source distribution
+
+commit 728d43c4837f4a120ec4778cdc4e34bbe8822cb4
+Author: Semmy Purewal <semmypurewal@gmail.com>
+Date:   Tue Sep 11 16:45:31 2012 -0400
+
+    rearranges directory structure
+
+commit c20d1a28001bc851c7d48975df5159061be15705
+Author: Semmy Purewal <semmypurewal@gmail.com>
+Date:   Mon Sep 10 14:19:55 2012 -0400
+
+    initial commit
