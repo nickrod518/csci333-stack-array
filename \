@@ -1,12 +1,9 @@
 #include "Stack.h"
 #include <iostream>
-#include <stdlib.h>
-#include <string.h>
 
 Stack::Stack(int initialSize) {
   theStack = new int[initialSize];
   top = 0;
-  capacity = initialSize;
 }
 
 Stack::~Stack() {
@@ -19,9 +16,8 @@ void Stack::push(int value) {
   // copy all elements to new stack
   // delete old stack
   // point old stack pointer to new stack
-  if (capacity == top) {
-    capacity = capacity*2;
-    int* newStack = new int[capacity];
+  if (theStack.size == top) {
+    int* newStack = new int[size*2];
     memcpy(newStack, theStack, top);
     delete[] theStack;
     theStack = newStack;
