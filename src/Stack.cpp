@@ -2,6 +2,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <string.h>
+#include <assert.h>
 
 Stack::Stack(int initialSize) {
   theStack = new int[initialSize];
@@ -15,17 +16,18 @@ Stack::~Stack() {
 
 void Stack::push(int value) {
   // if theStack is full
-  // create new stack twice as big
-  // copy all elements to new stack
-  // delete old stack
-  // point old stack pointer to new stack
   if (capacity == top) {
+    // create new stack twice as big
     capacity = capacity*2;
     int* newStack = new int[capacity];
+    // copy all elements to new stack
     memcpy(newStack, theStack, top);
+    // delete old stack
     delete[] theStack;
+    // point old stack pointer to new stack
     theStack = newStack;
   }
+  assert(capacity != top);
 
   theStack[top] = value;
   top++;
